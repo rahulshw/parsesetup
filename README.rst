@@ -141,7 +141,7 @@ To run
     import parsesetup
 
     # parses the setup.py file, returning arguments as a dict
-    setup_args = parsesetup.parse(path_to_setup_py)
+    setup_args = parsesetup.parse_setup(path_to_setup_py)
 
     # Parses a single package without using docker (dangerous!)
     setup_args = parsesetup.parse(path_to_setup_py, trusted=True)
